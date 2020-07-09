@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val imageSpan = ImageSpan(this, R.drawable.star)
+        val imageSpan = ImageSpan(this, R.drawable.icon)
         val builder = SpannableStringBuilder(" ")
         builder.setSpan(
             imageSpan,
